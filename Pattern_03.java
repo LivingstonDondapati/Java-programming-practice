@@ -8,7 +8,7 @@ public class Pattern_03 {
 		// outer for loop (rows)
 		for (int i = 1; i <= rows; i++) {
 			for (int j = 1; j <= columns; j++) {
-				System.out.print( (6-i) + " ");
+				System.out.print( i + " ");
 			}
 			System.out.println();
 		}

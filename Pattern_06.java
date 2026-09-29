@@ -8,7 +8,6 @@ public class Pattern_06 {
 		for (int i = 1; i <= rows; i++) {
 			for (int j = 1; j <= columns; j++) {
 				System.out.print((char) (96 + i) + " ");
-//				System.out.print((char) (96 + j) + " "); //for j columns
 			}
 			System.out.println();
 		}

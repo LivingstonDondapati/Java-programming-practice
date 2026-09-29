@@ -6,11 +6,11 @@ public class Pattern_01 {
 
 		int rows = 5, columns = 5;
 		//outer for loop(rows)
-		for (int i = 0; i < rows; i++) {
+		for (int i = 1; i <= rows; i++) {//replaced 0 with 1 & "<" with "<=" for numbers output instead of *
 		//Inner for loop(columns)
-			for (int j = 0; j < columns; j++) {
+			for (int j = 1; j <= columns; j++) {
 //				System.out.print("* ");//Prints * 
-				System.out.print("* ");
+				System.out.print(j + " ");
 			}
 			System.out.println();
 		}
